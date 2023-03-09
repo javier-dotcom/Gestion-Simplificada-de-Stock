@@ -412,8 +412,6 @@ GROUP BY cod_producto  ORDER BY total_ventas $masomenos
 $consulta=mysqli_query($conexion,$resul);
 $cont=0;
 
-$resul1="SELECT * FROM almacen ";
-$consulta1=mysqli_query($conexion,$resul1);
 
 //$f=mysqli_fetch_array($consulta1);
 
@@ -427,19 +425,21 @@ echo "<table border=3px;>";
 
 
   while($fi=mysqli_fetch_array($consulta)){
-    
+    $resul1="SELECT * FROM almacen ";
+    $consulta1=mysqli_query($conexion,$resul1);
     while($f=mysqli_fetch_array($consulta1)){
-
     if($f["codigo"] == $fi["codi_producto"]){
        $n= $f["marca"];
         $t=$f["articulo"];
-   
     }
     
     }
 
    echo "<td> " . $fi["codi_producto"]  . " </td><td>  " . $fi["total_ventas"] . "</td> <td>  " . $t . "</td> <td>  " . $n . "</td> ";
    echo"</tr>";
+
+
+   
 
  $cont++;
 if($cont==$cant){break;}
