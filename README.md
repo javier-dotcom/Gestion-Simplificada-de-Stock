@@ -1,0 +1,1 @@
+# Gestion-Simplificada-de-Stock
