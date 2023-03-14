@@ -1,5 +1,5 @@
 # Gestion-Simplificada-de-Stock
-
+Link Del video  https://www.youtube.com/watch?v=i4ErLGdiZZU&list=PLZ4PRy7pk5WWkX0TpG-hvvr0hSJiiBHu6
 Aplicación para facilitar el manejo y la gestion del stock en negocios con grandes cantidades de articulos para la comercialización.
 
 ![Gestion_simpli1](https://user-images.githubusercontent.com/85589346/223925582-d3c29525-c15e-4526-9bbf-9af0622ee6d3.png)
